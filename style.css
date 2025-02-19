@@ -1,0 +1,383 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    color: black;
+    width: 100%;  
+
+}
+
+
+.div-atap {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: "Zeyada", serif;
+    height: auto;
+    min-height: 25vh;
+    font-size: 80px;
+    background-color: rgb(115, 126, 100);
+    color: white;
+    width: 100%;
+    
+}
+
+
+.div-navbar {
+    height: 60px;
+    background-color: rgb(115, 126, 100);
+    
+}
+
+.ul-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  
+}
+
+.li-navbar {
+    font-size: 20px;
+    list-style: none;
+    padding: 10px;
+    margin-right: 50px;
+    margin-left: 50;
+   
+}
+
+.list {
+    text-decoration: none;
+    color: white;
+}
+
+
+.div-img {
+    display: flex; 
+}
+
+.img {
+    height: 600px;
+    border-radius: 600px;
+    padding: 10px;
+}
+
+.text {
+    margin-left: 10px; 
+
+}
+
+.paragraph {
+    font-size: 18px; 
+    line-height: 1.4; 
+    color: #333; 
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 690px;
+}
+
+.paragraph-2 {
+    display: flex;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.profile {
+    font-size: 20px;
+    display: flex;
+    width:220px;
+    letter-spacing: 0;
+    word-spacing: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile1 {
+    font-size: 20px;
+    display: flex;
+    width:220px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-left: 450px;
+}
+
+.education {
+    font-size: 22px;
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
+    margin-right: 105px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70px;
+}
+
+.kampus {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    width:230px;
+    justify-content: right;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-right: 120px;
+    margin-left: 450px;
+}
+
+.div-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-pren {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 580px;
+}
+
+.ig {
+    margin-left: 200px;
+}
+
+.x {
+    width: 130px;
+    margin-left: 310px;
+
+}
+
+.x-text {
+    margin-left: 40px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.ig-text {
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    margin-left: 0px;
+}
+
+.wa {
+    width: 130px;
+    margin-left: 235px;
+    margin-top: 40px;
+}
+
+.wa-text {
+    margin-left: 40px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.mail {
+    width: 130px;
+    margin-left: 310px;
+    margin-top: 40px;
+}
+
+.mail-text {
+    margin-left: 40px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+ 
+.tele {
+    width: 125px;
+    margin-left: 235px;
+    margin-top: 70px;
+}
+
+.tele-text {
+    color: #333;
+    font-weight: bold;
+    margin-left: 45px;
+    text-decoration: none;
+}
+
+.link {
+    width: 135px;
+    margin-top: 60px;
+    margin-left: 315px;
+}
+
+.link-text {
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+@media screen and (max-width : 556px) {
+    .div-atap {
+        width: 100%;
+        text-align: center;
+        font-size: 4em;
+    }
+
+    .div-img {
+        flex-wrap: wrap;
+    }
+
+    .div-about{
+        width: 100%;
+        align-items: center;
+    }
+
+    .img-pren{
+        width: 45vh;
+        display: flex;
+        list-style-type: none;
+    }
+
+    .div-navbar {
+        width: 100%;
+        font-size: 2em;
+    }
+
+    .li-navbar {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+
+    .img {
+        width: 90%;
+        align-items: center;
+        border-radius: 280px;
+        flex-direction: column;
+        text-align: center;
+        height: 95%;
+    }
+
+    .paragraph {
+        font-size: 1em;
+        width: 340px;
+    }
+    .education {
+        display: flex;
+        justify-content: left;
+        margin-left: 0px;
+    }
+
+    .kampus {
+        display: flex;
+        justify-content: left;
+        margin-left: 0px;
+    }
+
+    .profile {
+        width: 340;
+    }
+
+    .profile1 {
+        display: flex;
+        justify-content: left;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width : 649px) {
+    .x, .tele, .mail, .link, .wa{
+        width:8vh;
+        justify-content: last baseline;
+        margin-left: 20px;
+        margin-top: 10px;
+        display: flex;
+
+    }
+
+    .ig {
+        width: 12vh;
+        display: flex;
+        margin-left: 10px;
+
+    }
+
+    .ig-text, .x-text, .wa-text, .tele-text, .mail-text, .link-text {
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width : 1200px) {
+    .img {
+        display: flex;
+        align-items: center;
+    }
+
+    .div-atap {
+        width: 100%;
+        text-align: center;
+        font-size: 5em;
+    }
+    
+    .cover {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .div-navbar {
+        width: 100%;
+        font-size: 2em;
+    }
+
+    .paragraph {
+        width: 890px;
+    }
+
+    .div-img {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+
+ 
+    }
+
+    .kampus {
+        display: flex;
+        justify-content: left;
+        margin-left: 0px;
+    }
+
+    .profile {
+        width: 340;
+    }
+
+    .profile1 {
+        display: flex;
+        justify-content: left;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .education {
+        display: flex;
+        justify-content: left;
+        margin-left: 0px;
+    }
+
+    .img-pren {
+
+    }
+  
+}
